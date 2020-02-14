@@ -1,0 +1,38 @@
+/* Created by KARTHIK */
+/*Cascading Style Sheets is a style sheet language used for describing the 
+presentation of a document written in a markup language like HTML.
+  CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. 
+*/
+
+
+body{                                 /* For Body*/
+    height:100%;
+    width:100%;
+    position:fixed;
+    font-family: "Verdana", Times, serif;
+}
+
+.texts{                                 /* For texts class*/
+    font-family: "Verdana", Times, serif;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 50%); /*The transform property applies a 2D or 3D transformation to an element*/
+    text-align:center;
+    font-weight:bold;
+    width:80%;
+    opacity:1;
+}
+
+#lostPoints{            /*For id=lostPoints*/
+    bottom: 10%;
+    font-size: 25px;
+    color:red;
+}
+
+#loader{                /*For id=loader*/
+    font-size: 15px;
+    bottom:50%;
+    color: black;
+    opacity:0.7;
+    display:none;
+}
